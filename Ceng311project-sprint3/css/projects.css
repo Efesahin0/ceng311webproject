@@ -1,0 +1,112 @@
+/* HERO SECTION START */
+.hero {
+    width: 100%;  
+    height: 500px; 
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+
+.hero .container {
+    text-align: center;
+    
+    color: white;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+
+.hero p {
+    font-size: 1.2rem;
+}
+/* HERO SECTION END */
+
+
+
+
+/* ROOM PRICE SLIDER SECTION START */
+.room-slider-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .room-slider-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .room-slider-text {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  #room-slider {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 20px;
+  }
+  
+  .room-slider-output {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+/* ROOM PRICE SLIDER SECTION END */  
+
+
+/* PROJECTS SECTION START */
+.projects{
+    background-color: #F7F7F7;
+    margin-top: 35px;  
+    padding: 40px;
+}
+
+.projects .container{
+    text-align: center;
+}
+
+.projects-text{
+    margin: auto;
+
+}
+
+.projects-text h2{
+    font-size: 37px;
+    padding-top: 15px;
+}
+
+.projects-text p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.projects-text .btn{
+    margin-top: 20px;
+}
+
+.projects-image{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+    margin-bottom: 5px;
+}
+.projects .btn{
+    margin-top: 30px;
+}
+/* PROJECTS SECTION END */

@@ -1,0 +1,150 @@
+
+/* BASE STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.seperator{
+    margin-top: 30px;
+    border: 0.4px solid #193067;
+}
+
+
+/* MAIN CONTAINER START */
+.container {
+    max-width: 1200px;  
+    margin: 0 auto;      
+    padding: 0 20px;    
+
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; 
+    }
+}
+/* MAIN CONTAINER END */
+
+
+
+
+/* HEADER STYLE START */
+header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    z-index: 1000;      
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* Mobil Uyum */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* HEADER STYLE END */
+
+
+/* BUTTON STYLE START */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #193067;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: fit-content;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #14254d;
+}
+
+/* BUTTON STYLE END */
+
+
+
+/* FOOTER SECTION START */
+.footer{
+    background-color: #193067;
+    color: white;
+    padding-bottom: 60px;
+}
+
+.footer h3{
+    padding-top:20px;
+    font-size: 30px;
+}
+
+.footer hr{
+    margin-bottom: 20px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer .footer-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-menu a{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+/* FOOTER SECTION END */
