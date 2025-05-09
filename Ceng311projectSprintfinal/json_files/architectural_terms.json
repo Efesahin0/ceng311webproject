@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "term": "Architrave",
+      "description": "In classical architecture, the main horizontal beam resting directly on the capitals of columns, supporting the frieze and cornice.",
+      "category": "Classical Architecture"
+    },
+    {
+      "id": 2,
+      "term": "Cornice",
+      "description": "The uppermost horizontal molded projection that crowns a building or wall.",
+      "category": "Classical Architecture"
+    },
+    {
+      "id": 3,
+      "term": "Vault",
+      "description": "An arched structure, usually of stone, brick, or concrete, serving to cover a space.",
+      "category": "Structural Elements"
+    },
+    {
+      "id": 4,
+      "term": "Relief",
+      "description": "A sculptural technique where the sculpted elements remain attached to a solid background of the same material.",
+      "category": "Art & Ornamentation"
+    },
+    {
+      "id": 5,
+      "term": "Fresco",
+      "description": "A technique of mural painting executed upon freshly laid ('wet') lime plaster.",
+      "category": "Art & Ornamentation"
+    },
+    {
+      "id": 6,
+      "term": "Minimalism",
+      "description": "A style or technique (as in music, literature, or design) that is characterized by extreme spareness and simplicity.",
+      "category": "Modern Movements"
+    },
+    {
+      "id": 7,
+      "term": "Brutalism",
+      "description": "A style of modernist architecture that flourished from the 1950s to the mid-1970s, characterized by its massive, monolithic and 'blocky' appearance with a rigid geometric style and large-scale use of poured concrete.",
+      "category": "Modern Movements"
+    },
+    {
+      "id": 8,
+      "term": "Sustainable Architecture",
+      "description": "Architecture that seeks to minimize the negative environmental impact of buildings by efficiency and moderation in the use of materials, energy, and development space and the ecosystem at large.",
+      "category": "Contemporary Approaches"
+    },
+    {
+      "id": 9,
+      "term": "Facade",
+      "description": "The principal front of a building, that faces on to a street or open space.",
+      "category": "Structural Elements"
+    },
+    {
+      "id": 10,
+      "term": "Blueprint",
+      "description": "A design plan or other technical drawing.",
+      "category": "Technical Drawing"
+    }
+  ]
